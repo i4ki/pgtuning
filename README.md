@@ -4,17 +4,18 @@
 
 Crazy and simple idea: Automate the steps below:
 
-- Build a Linux kernel tuned for AWS EC2, EBS and postgres for an
+- Build a Linux kernel tuned for AWS EC2, EBS and postgres for a
   specific workload.
-- Build a minimalist linux distro
-- Build a static optimized postgres
+- Build a minimalist linux distro (coreos and/or arch linux)
+- Build a static optimized binary of postgres
 - Create an AWS AMI
 - Create VPC, Subnet, etc, required network
 - Create EBSs
 - Start an instance
 - Setup the RAID
 - Install postgres
-- Run pgbench and output reports
+- Run pgbench, sar, perf and other tools
+- Output reports
 
 # UI Design
 
